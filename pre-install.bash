@@ -2,7 +2,7 @@
 
 # upgrading OS
 dnf update -y -x kernel-*
-dnf install -y docker git vim bash-completion curl
+dnf install -y docker git vim curl dos2unix zip unzip bash-completion
 
 # docker vagrant user
 groupadd docker
