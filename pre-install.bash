@@ -8,10 +8,6 @@ dnf install -y docker git vim curl dos2unix zip unzip bash-completion
 groupadd docker
 usermod -aG docker vagrant
 
-# copy files
-mkdir -p /etc/docker
-cp etc/docker/daemon.json /etc/docker/daemon.json
-
 # docker service
 systemctl enable docker
 systemctl start docker
