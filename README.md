@@ -12,3 +12,4 @@ sudo cp /vagrant/etc/docker/daemon.json /etc/docker/daemon.json
 sudo systemctl restart docker
 oc cluster up --public-hostname=192.168.33.10
 ```
+
